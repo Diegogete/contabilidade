@@ -1,0 +1,61 @@
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+p, li, a, td {
+    font-family: roboto;
+}
+h2, h3, h4{
+    font-family: roboto-black;
+    font-size: 35px;
+}
+body{
+    background: url('../objetos/bg.jpg') no-repeat;
+    background-attachment: fixed;
+}
+.clique{
+    font-size: 15px;
+    text-align: center;
+}
+.bt-modal{
+    width: 191px;
+    height: 71px;
+    margin: 20px auto;
+    border: none;
+    display: block;
+}
+.bt-modal2{
+    width: 228px;
+    height: 71px;
+    margin: 20px auto;
+    border: none;
+    display: block;
+}
+.bt-lei9295{background: url('../objetos/btn1.png') no-repeat;}
+.bt-lei9295:hover{background: url('../objetos/btn1_hover.png') no-repeat;}
+.bt-painel{
+    width: 235px;
+    height: 231px;
+    display: block;
+    margin: 20px auto;
+    border: none;
+}
+.bt-fiscal{background: url('../objetos/painel_btn1_1.png') no-repeat;}
+.bt-fiscal:hover{background: url('../objetos/painel_btn1_hover.png') no-repeat;}
+.bt-pessoal{background: url('../objetos/painel_btn2_1.png') no-repeat;}
+.bt-pessoal:hover{background: url('../objetos/painel_btn2_hover.png') no-repeat;}
+.bt-contabil{background: url('../objetos/painel_btn3_1.png') no-repeat;}
+.bt-contabil:hover{background: url('../objetos/painel_btn3_hover.png') no-repeat;}
+.bt-societario{background: url('../objetos/painel_btn4_1.png') no-repeat;}
+.bt-societario:hover{background: url('../objetos/painel_btn4_hover.png') no-repeat;}
+
+.bt-balancete{background: url('../objetos/btn2.png') no-repeat;}
+.bt-balancete:hover{background: url('../objetos/btn2_hover.png') no-repeat;}
+.bt-balanco{background: url('../objetos/btn3.png') no-repeat;}
+.bt-balanco:hover{background: url('../objetos/btn3_hover.png') no-repeat;}
+.bt-demonstracao{background: url('../objetos/btn4.png') no-repeat;}
+.bt-demonstracao:hover{background: url('../objetos/btn4_hover.png') no-repeat;}

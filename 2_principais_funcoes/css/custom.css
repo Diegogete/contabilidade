@@ -1,0 +1,22 @@
+body{
+    background: url('../objetos/bg.jpg') no-repeat;
+    background-attachment: fixed;
+}
+.clique{
+    font-size: 15px;
+    text-align: center;
+}
+.ilustra{
+    margin: 30px auto;
+}
+.bt-napratica{
+    background: url('../objetos/btn_na_pratica.png') no-repeat;
+    width: 151px;
+    height: 74px;
+    display: block;
+    border: none;
+    margin: 20px auto;
+}
+.bt-napratica:hover{
+    background: url('../objetos/btn_na_pratica_hover.png') no-repeat;
+}

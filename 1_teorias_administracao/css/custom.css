@@ -1,0 +1,90 @@
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+p, li, a, td {
+    font-family: roboto;
+}
+h2, h3, h4{
+    font-family: roboto-black;
+    font-size: 35px;
+}
+body{
+    background: url('../objetos/bg_pattern.jpg') repeat;
+    background-attachment: fixed;
+}
+.clique{
+    font-size: 15px;
+    text-align: center;
+}
+.bt-painel{
+    width: 143px;
+    height: 143px;
+    display: block;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+}
+.bt-henry{background: url('../objetos/btn_1.png');}
+.bt-henry:hover{background: url('../objetos/btn_1.png'), url('../objetos/btn_detalhe.png');}
+.bt-fordismo{background: url('../objetos/btn_2.png');}
+.bt-fordismo:hover{background: url('../objetos/btn_2.png'), url('../objetos/btn_detalhe.png');}
+.bt-relacoeshumanas{background: url('../objetos/btn_3.png');}
+.bt-relacoeshumanas:hover{background: url('../objetos/btn_3.png'), url('../objetos/btn_detalhe.png');}
+.bt-neoclassica{background: url('../objetos/btn_4.png');}
+.bt-neoclassica:hover{background: url('../objetos/btn_4.png'), url('../objetos/btn_detalhe.png');}
+.bt-toyota{background: url('../objetos/btn_5.png');}
+.bt-toyota:hover{background: url('../objetos/btn_5.png'), url('../objetos/btn_detalhe.png');}
+.bt-peter{background: url('../objetos/btn_6.png');}
+.bt-peter:hover{background: url('../objetos/btn_6.png'), url('../objetos/btn_detalhe.png');}
+.eng-persona {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.persona {
+    position: relative;
+    width: 328px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.persona3 {
+    background-image: url(../objetos/gif3.gif);
+}
+.persona4 {
+    background-image: url(../objetos/gif4.gif);
+}
+.perspodcast {
+    position: relative;
+    left: -50px;
+}
+.texto-transcricao{
+    display: none;
+}
+
+@media screen and (max-width: 560px){
+    .persona3 {
+        background-image: none;
+    }
+    .perspodcast {
+        position: absolute;
+        left: 140px;
+        margin-top: 250px;
+    }
+    .img-gif3, .img-gif4{
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+}
+@media screen and (max-width: 400px){
+    .perspodcast {
+        left: 30px;
+    }
+}

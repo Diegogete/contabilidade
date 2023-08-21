@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+	Mudar cores/sobreescrever cores das classes e elementos neste  arquivo css,
+	para não afetar a estrutura do html.
+ 	Customizar cores dos elementos do bootstrap aqui, para manter a organização.
+*/
+body{
+	background-color:#e6e6e6;
+}
+
+.paper{
+	border-color:#e9e7e8;
+}
+
+.legenda_imagem{
+	color:inherit
+}
+.cor-padrao-curso-texto{
+	color:#007798;
+}
+.cor-padrao-curso-fundo{
+	background-color:#2d2d2d;
+	color:#fff;
+	padding:30px;
+}
+.pagination>li>a{
+		color: #7EA5C9 !important;
+		border-color: #7EA5C9;
+}
+.pagination>li>a:active{
+	color: white !important;
+	border-color: #31405D !important;
+	background-color: #31405D !important;
+}
+.pagination>li>a:hover{
+		color: #7EA5C9 !important;
+		border-color: #7EA5C9;
+}
+.pagination>.disabled>a:hover{
+		color: #7EA5C9 !important;
+		border-color: #f4f4f4;
+		background-color: #E0E6F0 !important;
+}
+.pagination>.disabled>a{
+		color: #7EA5C9 !important;
+		border-color: #f4f4f4;
+}
+.pagination>.active>a{
+	background-color: #7EA5C9 !important;
+	border-color: #7EA5C9;
+	color:#fff !important;
+}
+.pagination>.active>a:hover{
+	color:#fff !important;
+	border-color: #7EA5C9 !important;
+}
+.panel-heading{
+	background-color: #f4f4f4 !important;
+	color: #007798 !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#007798;
+}
+
+table.senac {
+	border-color:#E8E8E8;
+}
+table.senac th{
+	background-color:#31405D;
+	color:#fff;
+	border-color:#dedede;
+}
+table.senac td{
+	background-color:#fefefe;
+	color:#333;
+	border-color:#dedede;
+}
+header.senac{
+	background-color:#007798;
+}
+.video-player{
+	border-color:#000000;
+}
+
+#nome-curso{
+    color: #fff;
+}
+.fundo-tecnicos{
+	background-color:#fff;
+}
+.caixa-destaque{
+	background-color:#E0E6F0;
+}
+
+.caixa-destaque-livre{
+	background-color:#E0E6F0;
+}
+.caixa-ta-na-midia{
+	color: #fff;
+	background-color: #31405D;
+}
+.icone-transcricao > a{
+	background-color:#d8a32e;
+	color:#fff;
+}
+.icone-transcricao > a:hover{
+	background-color: #31405D;
+	color:#fff;
+}
+/*
+botões
+*/
+a.botao-transcricao{
+	background-color:#f4f4f4;
+	color:#2d2d2d;
+	font-weight: bold;
+	border-bottom:solid 2px #007798;
+}
+a.botao-transcricao:hover{
+	background-color: #007798;
+	color:#fff;
+	
+}
+
+.botao{
+	background-color:	#E0E6F0;
+	color:#2d2d2d;
+	border-bottom:solid 2px #7EA5C9;
+	font-weight:600;
+	
+}
+.botao:hover{
+	text-decoration:none;
+	background-color:#597994;
+	border-bottom:solid 2px #7EA5C9;
+	color:#2d2d2d;
+}
+
+.botao_paginacao{
+	background-color:#f4f4f4;
+	color:#2d2d2d;
+	border-bottom:solid 2px #7EA5C9;
+	font-weight:600;
+}
+.botao_paginacao:hover{
+	text-decoration:none;
+	background-color:#d8a32e;
+	border-bottom:solid 2px #c7c7c7;
+	color:white; 
+}
+.botao_paginacao:active, .botao_paginacao:focus{
+	text-decoration:none;
+	background-color:#d8a32e !important;
+	border-bottom:solid 2px #c7c7c7;
+	color:#2d2d2d !important;
+	}
+a.botao-pdf{
+	background-color:#f4f4f4;
+	border-bottom:solid 2px #007798;
+	font-weight:600;
+	color:#2d2d2d !important;
+
+}
+a.botao-pdf:hover{
+	font-weight: 600;
+	color: #2d2d2d;
+	background-color: #007798;
+}
+.botao_paginacao.avancar, .botao_paginacao.voltar{	
+	background-color:inherit;
+	}
+.botao_paginacao.avancar:hover, .botao_paginacao.voltar:hover{	
+	background-color:inherit;
+	}
+.botao_paginacao.avancar:active, .botao_paginacao.voltar:focus{
+	background-color:inherit !important;
+	}
+.botao_paginacao.avancar:focus, .botao_paginacao.voltar:active{
+background-color:inherit !important;
+}
+a.botao-avancar{
+	background-color:#007798;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF!important;
+}
+a.botao-avancar:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#d8a32e;
+}
+a.botao-voltar{
+	background-color:#007798;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF !important;
+}
+a.botao-voltar:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#d8a32e;
+}
+a.botao-subir{
+	background-color:#007798;
+	border-bottom:solid 2px #c7c7c7;
+	font-weight:600;
+	color:#FFFFFF !important;
+}
+a.botao-subir:hover{
+	font-weight: 600;
+	color: #FFFFFF !important;
+	background-color:#d8a32e;
+}
+.anim-troca-cor:hover{
+	background-color:#f4f4f4;
+
+}
+
+
+/* coloca um dos icones ao lado de um titulo */
+
+.botao_paginacao.ativo{
+	text-decoration:none;
+	background-color:#007798!important;
+	border-bottom:solid 2px #c7c7c7;
+	color:#ffffff !important;
+	}
+.bg-topo-print {
+    background-color: #31405D
+}
+.bg-topo-print .btn.btn-primary {
+	background-color: #31405D;
+	border: 1px solid #31405D;
+}
+.bg-topo-print .btn.btn-primary:hover, .bg-topo-print .btn.btn-primary:visited, .bg-topo-print .btn.btn-primary:active, .bg-topo-print .btn.btn-primary.active, .bg-topo-print .btn.btn-primary:focus   {
+	background-color:#7EA5C9;
+}
+/* IMPRESSÃO: cores do botão imprimir. Personalizar de acordo com as cores do tema */
+.grupo-imprimir button.bto-imprimir {
+  background: #31405D;
+  color: #fff;
+}
+.grupo-imprimir button.bto-imprimir:hover {
+  background-color: #E0E6F0;
+  color: #2D2D2D;
+}
+.grupo-imprimir button.bto-ajuda  {
+	background-color: #31405D;
+  color: #fff;
+}
+.grupo-imprimir button.bto-ajuda:hover {
+  background-color: #2A74B7;
+  color: #FFF;
+}
+.grupo-imprimir button.bto-ajuda:hover span.fa.fa-question {
+  color: #215D89;
+}
+.grupo-imprimir button.bto-ajuda span.fa.fa-question {
+	color: #215D89;
+}
+
+.btn-print {
+    color: #2D2D2D;
+    background-color: #fff;
+    border-color: #1b717a;
+}
+
+.nav-tabs>li>a:hover{
+	background-color: white;
+	border-color: #7EA5C9;
+	background-color: 	#E0E6F0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #7EA5C9;
+    cursor: default;
+    background-color: white;
+    border: 1px solid #7EA5C9;
+    border-bottom-color: transparent;
+}
+.nav-tabs {
+    border-bottom: 1px solid #7EA5C9;
+}

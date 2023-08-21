@@ -1,0 +1,93 @@
+@font-face {
+    font-family: roboto-black;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+.fundo-escuro{
+    background: #31405d;
+}
+.fundo-escuro *{color: #fff;}
+.bloco{
+    padding: 70px 0;
+}
+.bloco1{padding-top: 100px;}
+.grupo-imprimir button.bto-imprimir {background: #007798;}
+p, li, a, td {
+    font-family: roboto;
+}
+h2{
+    font-family: roboto-black;
+    font-size: 35px;
+}
+.caixa-destaque-livre{
+    background-color: transparent;
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to bottom, #7ea5c9, #31405d);
+}
+.fundo-escucro .caixa-destaque-livre{
+    border-image-source: linear-gradient(to bottom, #ffffff, #7ea5c9);
+}
+body{
+    background: url('../objetos/bg.jpg') no-repeat;
+    background-attachment: fixed;
+}
+.bloco1{padding-top: 100px;}
+.clique{
+    font-size: 15px;
+    text-align: center;
+}
+.fundo-escuro .icone-importante{
+    background-image: url('../objetos/ico-importante_claro.png');
+    background-repeat: no-repeat;
+}
+.painel{
+    background: url('../objetos/painel1.png') no-repeat;
+    width: 432px;
+    height: 431px;
+    display: block;
+    margin: 30px auto;
+    position: relative;
+}
+.bt-tooltip{
+    position: absolute;
+    width: 110px;
+    height: 50px;
+    background: transparent;
+    border: none;
+}
+.bt-financeira{
+    top: 88px;
+}
+.bt-comercial{
+    top: 88px;
+    right: 112px;
+}
+.bt-pagar{
+    top: 151px;
+    left: 76px;
+}
+.bt-receber{
+    top: 223px;
+    left: 76px;
+}
+.bt-pessoal{
+    top: 296px;
+    left: 89px;
+}
+.bt-contabilidade{
+    top: 369px;
+    left: 89px;
+}
+.bt-compras{
+    top: 151px;
+    right: 20px;
+}
+.bt-vendas{
+    top: 221px;
+    right: 20px;
+}
